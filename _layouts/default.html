@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>{{ site.title }} | {{ page.title }}</title>
+    {% include head.html %}
   </head>
   <body>
+    <h1>Attack on Titan</h1>
+    {% include menu.html %}
+
     {{ content }}
   </body>
 </html>

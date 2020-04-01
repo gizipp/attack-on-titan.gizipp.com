@@ -1,1 +1,9 @@
 title: GIZ! on AOT
+
+collections_dir: collections
+collections:
+  volumes:
+    output: true
+    sort_by: title
+  chapters:
+    output: true
